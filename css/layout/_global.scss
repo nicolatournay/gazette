@@ -8,41 +8,15 @@ img {
     margin: 0 auto;
 }
 
-.white-bg {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: $gap;
-    .wrapper {
-        grid-column: 1/4;
-    }
+.tag {
+    background-color: $red;
+    color: #fff;
+    font-family: $roboto;
+    text-decoration: none;
 }
 
-.today article {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: $gap;
-}
-
-.videos {
-    display: grid;
-    grid-template-columns: calc(100%/3 - 4rem/3) auto auto calc(100%/3 - 4rem/3);
-    gap: $gap;
-}
-
-.gray-bg {
-    background-color: #f6f6f6;
-    .container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: $gap;
-    }  
-}
-
-.dark-bg {
-    background-color: #1d1d1d;
-    article {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: $gap;
-    }
+.date {
+    font-family: $roboto;
+    font-style: italic;
+    text-decoration: none;
 }

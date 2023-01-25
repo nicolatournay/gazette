@@ -3,6 +3,20 @@
     grid-template-columns: repeat(2, 1fr);
     height: 55px;
     align-items: center;
+    a {
+        color: rgba(0, 0, 0, 0.75);
+        text-decoration: none;
+        font-family: $roboto;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding: 0 8px;
+        &:hover {
+            color: $red;
+        }
+    }
+    li:first-child a {
+        color: $red;
+    }
 }
 
 nav ul {
