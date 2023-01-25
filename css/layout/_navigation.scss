@@ -1,0 +1,21 @@
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 55px;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.search {
+    justify-self: end;
+    i {
+        cursor: pointer;
+    }
+}

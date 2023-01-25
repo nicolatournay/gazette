@@ -1,0 +1,10 @@
+footer {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.credits {
+    text-align: center;
+}

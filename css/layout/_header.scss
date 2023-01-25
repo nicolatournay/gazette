@@ -1,0 +1,13 @@
+.header .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 160px;
+    img {
+        padding: 0 15px;
+        align-self: center;
+    }
+}
+
+header {
+    border-bottom: 1px solid #e4e4e4;
+}
