@@ -3,6 +3,10 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 55%;
     margin: 0 auto;
@@ -12,11 +16,10 @@ img {
     background-color: $red;
     color: #fff;
     font-family: $roboto;
-    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .date {
     font-family: $roboto;
     font-style: italic;
-    text-decoration: none;
 }
