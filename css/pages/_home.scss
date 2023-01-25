@@ -1,3 +1,28 @@
+.politics {
+    h1 {
+        font-size: 48px;
+        margin: 15px 0;
+        font-weight: 400;
+    }
+    .date {
+        font-size: 18px;
+    }
+    img {
+        margin: 50px 0;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 32px;
+    }
+}
+
+.social a {
+    padding: 0 10px;
+    color: $gray;
+}
+
 .white-bg {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,10 +32,23 @@
     }
 }
 
+.today {
+    margin-top: 100px;
+    h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    p {
+        font-size: 14px;
+        line-height: 2;
+    }
+}
+
 .today article {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: $gap;
+    margin-top: 50px;
 }
 
 .videos {

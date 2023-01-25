@@ -28,21 +28,20 @@
             z-index: -1;
         }
     }
-    .tag {
-        padding: 2px 5px;
-        font-size: 12px;
-        font-weight: 500;
-    }
     h3 {
         color: #fff;
         font-size: 36px;
         margin: 15px 0;
         font-family: $ptserif;
         font-weight: 500;
+        &:hover {
+            color: $red;
+        }
     }
     .date {
         color: #fff;
-        font-size: 18px;
-        font-weight: 500;
+        &:hover {
+            color: $red;
+        }
     }
 }

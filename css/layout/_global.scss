@@ -7,9 +7,34 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #9f9f9f;
+    font-size: 1em;
+    line-height: 1.9;
+    font-family: $roboto;
+    font-weight: 400;
+}
+
+h1, h3, h5 {
+    color: #3a3a3a;
+    font-family: $ptserif;
+}
+
+h2, h4 {
+    color: #3a3a3a;
+    font-family: $roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
 .container {
-    width: 55%;
+    width: $container;
     margin: 0 auto;
+}
+
+main .container,
+footer .container  {
+    padding: 100px 0;
 }
 
 .tag {
@@ -17,9 +42,33 @@ a {
     color: #fff;
     font-family: $roboto;
     text-transform: uppercase;
+    padding: 2px 5px;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .date {
     font-family: $roboto;
     font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 20px;
+    border: 1px solid #000;
+    color: #000;
+    i {
+        padding-left: 15px;
+    }
+}
+
+.comments {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 500;
+    font-family: $roboto;
 }
